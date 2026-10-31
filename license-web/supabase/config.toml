@@ -1,0 +1,13 @@
+project_id = "framelink-license-management"
+
+[functions.admin-api]
+verify_jwt = true
+
+[functions.activate]
+verify_jwt = false
+
+[functions.verify]
+verify_jwt = false
+
+[functions.public-config]
+verify_jwt = false
